@@ -17,7 +17,7 @@ $ rm -rf loader
 
 Voici le résultat au démarrage de la vm 😅
 
-[Le résultat 🤣](obsidian://open?vault=Tp-Linux&file=tp1%2FVm1.png)
+[Le résultat 🤣](Vm1.png)
 
 + 2 ème méthode
 
@@ -31,7 +31,7 @@ $ sudo nano version
 
 Voici le résultat au démarrage de la vm 😲
 
-[Le résultat 🤣](obsidian://open?vault=Tp-Linux&file=tp1%2FVm2.png)
+[Le résultat 🤣](Vm2.png)
 
 + 3ème méthode
 
@@ -45,7 +45,7 @@ $ :(){ :|: & };:
 
 Voici le résultat obtenue au démarrage de la vm 😆
 
-[Le résultat 🤣](obsidian://open?vault=Tp-Linux&file=tp1%2FVm3.png)
+[Le résultat 🤣](Vm3.png)
 
 + 4ème méthode 
 
@@ -61,5 +61,5 @@ J'ai introduit "Hello world" dans la liste des caractères
 
 Voici le résultat au démarrage 😂
 
- [Le résultat 😂](obsidian://open?vault=Tp-Linux&file=tp1%2FVm4.png)
+ [Le résultat 😂](Vm4.png)
  
