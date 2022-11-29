@@ -6,6 +6,7 @@ On vas PETER des vm !!
 + 1 ère méthode
 
 J'ai étais dans le dossier ***boot*** et un beau fichier ma sourie 🤣
+
 je l'ai donc effacer 
 ```
 $ cd /
@@ -15,6 +16,7 @@ $ rm -rf loader
 ```
 
 Voici le résultat au démarrage de la vm 😅
+
 [Le résultat 🤣](obsidian://open?vault=Tp-Linux&file=tp1%2FVm1.png)
 
 + 2 ème méthode
@@ -28,11 +30,13 @@ $ sudo nano version
 ```
 
 Voici le résultat au démarrage de la vm 😲
+
 [Le résultat 🤣](obsidian://open?vault=Tp-Linux&file=tp1%2FVm2.png)
 
 + 3ème méthode
 
 J'ai éffectue une commande MAGIQUE ***Fork bomb😈***
+
 Cette commande crée des processus jusqu'à saturation de la mémoire ce qui fais plantez la vm 
 ```
 $ cd /
@@ -40,6 +44,7 @@ $ :(){ :|: & };:
 ```
 
 Voici le résultat obtenue au démarrage de la vm 😆
+
 [Le résultat 🤣](obsidian://open?vault=Tp-Linux&file=tp1%2FVm3.png)
 
 + 4ème méthode 
@@ -53,6 +58,8 @@ sudo nano vmlinuz-5.14.0-70.26.1.el9.aarch64
 ```
 
 J'ai introduit "Hello world" dans la liste des caractères 
+
 Voici le résultat au démarrage 😂
+
  [Le résultat 😂](obsidian://open?vault=Tp-Linux&file=tp1%2FVm4.png)
  
