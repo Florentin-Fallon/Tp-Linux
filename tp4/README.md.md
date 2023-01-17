@@ -48,7 +48,7 @@ sudo pvdisplay
   Physical volume "/dev/vdb" successfully created.
 
   Volume group "storage" successfully created
-  ```
+```
   
 ```
 [linux@storage ~]$ sudo vgdisplay
@@ -375,6 +375,7 @@ success
 ### Analysez le service NGINX
 
 + Première partie :
+
 ```
 [linux@web ~]$ ps -ef | grep nginx
 
@@ -387,6 +388,7 @@ linux       1689    1395  0 14:59 pts/0    00:00:00 grep --color=auto **
 ```
 
 + Deuxième partie :
+
 ```
 [linux@web ~]$ ss -alnpt |grep 80
 
@@ -396,6 +398,7 @@ LISTEN 0      511             [::]:**80**           [::]:*
 
 ```
 + Troisième partie :
+
 ```
 
 ```
