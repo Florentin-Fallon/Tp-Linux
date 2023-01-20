@@ -645,7 +645,45 @@ Enter password: 
 ### Install de PHP
 ### Install de tous les modules PHP nécessaires pour NextCloud
 
+```
+[linux@Web ~]$ sudo dnf install -y libxml2 openssl php php-ctype php-curl php-gd php-iconv php-json php-libxml php-mbstring php-openssl php-posix php-session php-xml php-zip php-zlib php-pdo php-mysqlnd php-intl php-bcmath php-gmp
+
+Last metadata expiration check: 0:03:31 ago on Fri 20 Jan 2023 08:49:39 PM CET.
+
+Package libxml2-2.9.13-2.el9.aarch64 is already installed.
+
+Package openssl-1:3.0.1-43.el9_0.aarch64 is already installed.
+```
+
+
+
 ### Récupérer NextCloud
+
+```
+[linux@Web tp5_nextcloud]$ sudo curl https://download.nextcloud.com/server/prereleases/nextcloud-25.0.0rc3.zip -o site.zip
+
+[sudo] password for linux: 
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+100  168M  100  168M    0     0  3421k      0  0:00:50  0:00:50 --:--:-- 3681k
+```
+
+```
+[linux@Web tp5_nextcloud]$ sudo dnf install unzip
+
+Last metadata expiration check: 0:19:19 ago on Fri 20 Jan 2023 08:49:39 PM CET.
+
+Dependencies resolved.
+
+================================================================================
+
+ Package         Architecture      Version               Repository        Size
+
+================================================================================
+```
 
 ### **Adapter la configuration d'Apach**
 
@@ -663,3 +701,6 @@ J'ai ensuite réinstallez une nouvelle vm et ensuite tu m'as donner un script po
 
 ### **Exploration de la base de données**
 
+```
+
+```
