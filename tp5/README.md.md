@@ -702,5 +702,6 @@ J'ai ensuite réinstallez une nouvelle vm et ensuite tu m'as donner un script po
 ### **Exploration de la base de données**
 
 ```
-
+Malgrés les commandes faites je ne parvient pas a me connecter a la base de données 
+Escuse moi pour ne t'avoir pas rendu la fin du tp5 
 ```
