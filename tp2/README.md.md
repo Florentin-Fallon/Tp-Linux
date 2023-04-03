@@ -315,7 +315,7 @@ florentinfallon@MacBook-Pro-de-Florentin ~ % curl 192.168.29.3 | head -n 7
     <title>HTTP Server Test Page powered by: Rocky Linux</title>
 
     <style type="text/css">
- ```
+```
 
 ## 2. Analyser la conf de NGINX
 
@@ -368,8 +368,7 @@ florentinfallon@MacBook-Pro-de-Florentin ~ % curl 192.168.29.3 | head -n 7
         }
 
     }
- ```
- 
+```
 + Deuxième partie :
 
 ```
